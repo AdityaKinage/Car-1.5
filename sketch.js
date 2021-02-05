@@ -39,4 +39,7 @@ function draw(){
     clear();
     game.play();
   }
+  if(gameState === 2 ){
+    game.end();
+     }
 }
