@@ -83,7 +83,7 @@ class Game {
       player.distance +=10
       player.update();
     }
-if(player.distance>3800){
+if(player.distance>3600){
   gameState = 2;
    }
     drawSprites();
