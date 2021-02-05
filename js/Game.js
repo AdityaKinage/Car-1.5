@@ -83,7 +83,13 @@ class Game {
       player.distance +=10
       player.update();
     }
-
+if(player.distance>3800){
+  gameState = 2;
+   }
     drawSprites();
   }
+  end(){
+    console.log("game ended")
+  }
+  
 }
