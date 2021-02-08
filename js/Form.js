@@ -17,10 +17,9 @@ class Form {
   display(){
     this.title.html("Car Racing Game");
     this.title.position(displayWidth/2 - 50, 0);
-this.reset.position(displayWidth/2,displayHeight/2)
     this.input.position(displayWidth/2 - 40 , displayHeight/2 - 80);
     this.button.position(displayWidth/2 + 30, displayHeight/2);
-2
+    this.reset.position(displayWidth/2,displayHeight/2);
     this.button.mousePressed(()=>{
     
       this.input.hide();
